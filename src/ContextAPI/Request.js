@@ -1,7 +1,7 @@
 // axiosInstance.js
 import axios from 'axios';
 
-const baseURL = 'http://localhost:3000/personalbudget'; // replace with your API base URL
+const baseURL = 'https://coral-app-ozwxm.ondigitalocean.app/personalbudget'; // replace with your API base URL
 
 const Axios = axios.create({
   baseURL,
