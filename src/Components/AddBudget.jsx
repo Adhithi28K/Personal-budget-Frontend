@@ -108,7 +108,7 @@ export default function AddBudget() {
       transform: 'translate(-50%, -50%)',
       zIndex: '9999',
     }} 
-    color="#36d7b7" 
+    color="#E77761" 
   />:
     <>
     <SnackbarProvider>

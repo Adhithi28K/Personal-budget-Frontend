@@ -40,7 +40,7 @@ function App({categories,weeklyExpenses,extData}) {
         <MDBCol md='12'>
           <section className='text-center'>
             <MDBRow>
-              <MDBCol md='6' className='mb-4'>
+              <MDBCol md='8' className='mb-4'>
                 <MDBCard>
                   <MDBCardHeader className='py-3'>
                     <h5 className='mb-0'>Categorical Graph</h5>
@@ -101,7 +101,7 @@ function App({categories,weeklyExpenses,extData}) {
                 </MDBCard>
               </MDBCol>
 
-              <MDBCol md='6' className='mb-4'>
+              <MDBCol md='8' className='mb-4'>
                 <MDBCard>
                   <MDBCardHeader className='py-3'>
                     <h5 className='mb-0'>Weekly Expenditure</h5>

@@ -1,3 +1,4 @@
+// import "./styles.css";
 import React from "react";
 import {
   BarChart,
@@ -57,23 +58,23 @@ const data = [
 export default function App(props) {
   return (
     <BarChart
-      width={800}
-      height={350}
+      width={1200}
+      height={300}
       data={props.data}
       margin={{
-        top: 20,
+        top: 5,
         right: 30,
         left: 20,
         bottom: 5
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="categoryName" />
+      <XAxis dataKey="name" />
       <YAxis />
       <Tooltip />
       <Legend />
-      <Bar dataKey="totalExpense" stackId="a" fill="#8884d8" />
-      <Bar dataKey="amountLeft" stackId="a" fill="#82ca9d" />
+      <Bar dataKey="totalExpense" fill="#FF9800" />
+      <Bar dataKey="amountLeft" fill="#00BCD4" />
     </BarChart>
   );
 }

@@ -107,7 +107,7 @@ export default function WithAction() {
           />
           <HStack spacing={8} alignItems={'center'}>
           <Box>
-  <Heading as="h2" size="lg" fontFamily="monospace" fontWeight="bold" color="green.500">
+  <Heading as="h2" size="lg" fontFamily="monospace" fontWeight="bold" color="#E56061">
     {/* <FaMoneyBillAlt style={{ marginRight: "0.5rem" }} /> */}
     Expense Tracker
   </Heading>

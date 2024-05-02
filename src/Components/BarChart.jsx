@@ -5,7 +5,7 @@ const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#FF00FF'
 
 const WeeklyBarChart = ({ data }) => {
   return (
-    <BarChart width={600} height={350} data={data}>
+    <BarChart width={1200} height={350} data={data}>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="week" />
       <YAxis />

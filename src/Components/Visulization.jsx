@@ -106,7 +106,17 @@ useEffect(()=>{
             fontWeight={"bold"}
           >
             No Expense Found For Selected Month.
-          </chakra.h1>
+          </chakra.h1>{
+          pageload&&<ClockLoader 
+    cssOverride={{
+      position: 'fixed',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      zIndex: '9999',
+    }} 
+    color="#E77761" 
+  />}
         </Box>
       </>
     ); // Render nothing if expenses array is empty
@@ -165,7 +175,7 @@ useEffect(()=>{
       transform: 'translate(-50%, -50%)',
       zIndex: '9999',
     }} 
-    color="#36d7b7" 
+    color="#E77761" 
   />: <>
   <Visualize data={categories} piechartdata={categoryDistribution} handleSelectMonth={handleSelectMonth} selectedMonth={selectedMonth} />
       {" "}

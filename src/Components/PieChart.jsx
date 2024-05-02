@@ -2,8 +2,16 @@ import React from 'react';
 import { PieChart, Pie, Tooltip, Legend, Cell } from 'recharts';
 
 const CategoryPieChart = ({ data }) => {
-  const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF', '#FF1919'];
-
+  const COLORS = [
+    '#5DADE2', // Light Blue
+    '#F39C12', // Orange
+    '#58D68D', // Green
+    '#AF7AC5', // Lavender
+    '#F5B041', // Yellow
+    '#EC7063', // Red
+  ];
+  
+  
   return (
     <PieChart width={400} height={350}>
       <Pie

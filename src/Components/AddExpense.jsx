@@ -121,7 +121,7 @@ export default function AddExpense() {
       transform: 'translate(-50%, -50%)',
       zIndex: '9999',
     }} 
-    color="#36d7b7" 
+    color="#E77761" 
   />:
     <>
     <StatsBar  fntocall={onOpen}/>
@@ -158,7 +158,7 @@ export default function AddExpense() {
               </Select>
             </FormControl>
             <FormControl mt={4}>
-              <FormLabel>Allocate Budget Amount</FormLabel>
+              <FormLabel> Amount</FormLabel>
               <NumberInput
                 onChange={(valueString) => setExpenseAmount(parse(valueString))}
                 value={format(expenseAmount)}

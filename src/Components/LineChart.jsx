@@ -14,7 +14,7 @@ export default function App(props) {
     console.log(props.data,'asdfjkasdjkfhjhk')
   return (
     <LineChart
-      width={800}
+      width={1200}
       height={350}
       data={props.data[0]}
       margin={{
@@ -35,7 +35,7 @@ export default function App(props) {
         stroke="#8884d8"
         activeDot={{ r: 8 }}
       /> */}
-      <Line type="monotone" dataKey="amount" stroke="#82ca9d" />
+      <Line type="monotone" dataKey="amount" stroke="#E66061" />
     </LineChart>
   );
 }
